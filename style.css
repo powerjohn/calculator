@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+	font-family: sans-serif;
+	background-color: darkgrey;
+}
+
+span.left, span.right{
+	cursor: pointer;
+}
+
+span:hover{
+	box-shadow: 2px 2px 1px 1px #666;
+
+}
+
+.calculator{
+	width: 300px;
+	height: 350px;
+	margin: 20px auto;
+	box-shadow: inset 6px 6px 5px #666;
+	background-color: lightgrey;
+	border-radius: 130px/40px;
+	border-bottom: 3px solid darkgrey;
+	border-right: 3px solid darkgrey;
+}
+
+.title{
+	margin: 15px 25% 2px 25%;
+	float: left;
+	width: 50%;
+}
+
+.display{
+	clear: both;
+	float: left;
+	width: 70%;
+	height: 10%;
+	background-color: white;
+	margin: 10px 15%;
+	border-radius: 10px/5px;
+	border-bottom: 1px solid darkgrey;
+	border-right: 1px solid darkgrey;
+	box-shadow: inset 3px 3px 2px #666;
+}
+
+#small-text{
+	clear: both;
+	float: left;
+	font-size: x-small;
+	margin: 5px 27%;
+}
+
+.button-set{
+	clear: both;
+	width: 75%;
+	height: 65%;
+	margin: 0px 12.5%;
+
+}
+.rows{
+	margin: 5px;
+	height: 35px;
+}
+
+.left{
+	float: left;
+	width: 15%;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	border: solid 2px grey;
+	color: white;
+	background-color: black;
+	border-radius: 25px/7px;
+
+}
+
+.right{
+	float: right;
+	width: 15%;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	border: solid 2px grey;
+	color: white;
+	background-color: black;
+	border-radius: 25px/7px;
+}
+
+.cancel{
+	background-color: red;
+}
+
+.lg{
+	padding: 12% 2%;
+}
+
+#numDisplay{
+	float:right;
+	padding: 1em;
+	box-shadow: none;
+}
